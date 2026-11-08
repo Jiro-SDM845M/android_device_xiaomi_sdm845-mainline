@@ -1,0 +1,25 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.sdm845.rc",
+    src: "init.sdm845.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.recovery.sdm845.rc",
+    src: "init.recovery.sdm845.rc",
+    sub_dir: "init",
+    recovery: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.sdm845.rc",
+    src: "ueventd.sdm845.rc",
+    filename: "ueventd.rc",
+    vendor: true,
+}

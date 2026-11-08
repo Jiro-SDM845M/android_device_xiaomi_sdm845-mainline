@@ -1,0 +1,12 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "fstab.sdm845",
+    src: "fstab.sdm845",
+    vendor: true,
+    ramdisk_available: true,
+    recovery_available: true,
+}
