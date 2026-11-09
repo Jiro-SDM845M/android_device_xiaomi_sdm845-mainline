@@ -20,7 +20,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # HALs
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service-lazy \
-    disable_configstore \
     libwifi-hal-qcom \
     sdm845_vendor_qcom_wifi_hal \
     vndservicemanager
