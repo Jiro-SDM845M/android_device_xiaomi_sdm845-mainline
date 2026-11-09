@@ -20,6 +20,6 @@ prebuilt_etc {
 prebuilt_etc {
     name: "ueventd.sdm845.rc",
     src: "ueventd.sdm845.rc",
-    filename: "ueventd.rc",
+    filename_from_src: true,
     vendor: true,
 }
